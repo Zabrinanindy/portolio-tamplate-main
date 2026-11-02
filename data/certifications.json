@@ -2,36 +2,37 @@
   "certifications": [
     {
       "id": "cert-001",
-      "slug": "react-dan-nextjs-web-development",
-      "name": "React & Next.js Modern Web Development",
-      "issuer": "Dicoding Indonesia",
-      "issueDate": "2026-02-15",
-      "credentialId": "DC-RNX-2026-0891",
-      "credentialUrl": "https://www.dicoding.com",
+      "slug": "digdaya-hackathon",
+      "name": "Practioner Training Program DIGDAYA x HACKATHON 2026",
+      "issuer": "Bank Indonesia",
+      "issueDate": "2026-08-11",
+      "credentialId": "2657/PLT2260383/PRACTIONER/2026",
+      "credentialUrl": "https://credsverse.com/credentials/6c256ce3-22e4-4bde-9c27-763a99dd13e7?preview=1",
       "image": "/assets/certifications/cert-001.svg",
-      "description": "Sertifikasi kompetensi pengembangan aplikasi web modern menggunakan ekosistem React.js dan Next.js, mencakup pengelolaan state, routing dinamis, komponen reusable, serta optimasi performa aplikasi.",
+      "description": "Sertifikat ini diberikan sebagai pengakuan kepada peserta yang telah berhasil menyelesaikan Practitioner Training Program dalam rangka DIGDAYA x HACKATHON 2026. Mempelajari penerapan teknologi AI, pengembangan bisnis startup, manajemen waktu dan produktivitas, pengembangan produk berbasis AI, serta pengembangan ekonomi kreatif dan layanan digital.",
       "skills": [
-        "React JS",
-        "Next JS",
-        "Javascript",
-        "Tailwind CSS"
+        "Artificial Intelligence",
+        "Digital Product Development",
+        "Start up Business"
       ],
-      "featured": true
+      "featured": false
     },
     {
       "id": "cert-002",
-      "slug": "ui-ux-design-dan-digital-product",
-      "name": "UI/UX Design & Digital Product Prototyping",
-      "issuer": "BuildWithAngga",
-      "issueDate": "2025-09-20",
-      "credentialId": "BWA-UIUX-2025-4412",
-      "credentialUrl": "https://buildwithangga.com",
+      "slug": "bangkit-academy",
+      "name": "Mobile Development Cohort: Bangkit Academy by Google, GoTo, and Traveloka",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2025-01-10",
+      "credentialId": "BA24/GRAD/XXIV-01/A248B4KX4585",
+      "credentialUrl": "https://drive.google.com/file/d/1-uLMBYM78hovsvblK1r1epuulec7sTgb/view?usp=drive_link",
       "image": "/assets/certifications/cert-002.svg",
-      "description": "Sertifikasi perancangan antarmuka dan pengalaman pengguna (UI/UX) untuk produk digital, mulai dari riset pengguna, penyusunan wireframe, pembuatan design system di Figma, hingga interactive prototyping.",
+      "description": "Sertifikat ini diberikan kepada peserta yang telah berhasil menyelesaikan program Bangkit Academy 2024 sebagai Mobile Development Cohort. Mempelajari pengembangan aplikasi berbasis teknologi, meliputi pemrograman Kotlin, pengembangan aplikasi Android, penerapan UI/UX, integrasi API, serta pengembangan proyek aplikasi melalui pembelajaran dan praktik langsung.",
       "skills": [
-        "Figma",
-        "Adobe Illustrator",
-        "Canva"
+        "Kotlin",
+        "Android Studio",
+        "REST API",
+        "Jetpack Compose",
+        "Mobile App Development"
       ],
       "featured": true
     },

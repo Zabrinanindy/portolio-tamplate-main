@@ -2,101 +2,300 @@
   "experiences": [
     {
       "id": "exp-001",
-      "slug": "fullstack-web-developer-dan-ui-designer-freelance",
-      "organization": "Independent Digital Studio",
-      "position": "Full Stack Web Developer & UI/UX Designer",
-      "type": "Freelance",
+      "slug": "digdaya-x-hackathon-bank-indonesia",
+      "organization": "Digdaya X Hackathon Bank Indonesia",
+      "position": "Front End Developer",
+      "type": "Apprenticeship",
       "location": "Indonesia",
       "employmentType": "Remote",
-      "startDate": "2024-06",
-      "endDate": "",
-      "current": true,
-      "shortDescription": "Mengembangkan berbagai proyek website korporat, aplikasi undangan digital, dan desain produk digital untuk klien.",
-      "description": "Berperan sebagai pengembang web full stack sekaligus desainer UI/UX independen yang menangani siklus pengembangan produk digital dari tahap perancangan desain di Figma hingga implementasi kode produksi menggunakan React.js, Next.js, dan Tailwind CSS.",
+      "startDate": "2026-06",
+      "endDate": "2026-08",
+      "current": false,
+      "shortDescription": "Berkontribusi dalam pengembangan konsep SDK Sentinel-ID berbasis AI dan sensor bersama Tim Dizipher dalam program Digdaya X Hackathon Bank Indonesia.",
+      "description": "Mengikuti program Digdaya X Hackathon Bank Indonesia sebagai Front End Developer bersama Tim Dizipher. Program ini berfokus pada pengembangan inovasi teknologi melalui konsep SDK Sentinel-ID, yaitu solusi berbasis Artificial Intelligence dan sensor. Selain berkontribusi dalam pengembangan konsep produk, program ini juga memberikan pembelajaran mengenai Web Development, Artificial Intelligence, dan pengembangan produk digital.",
       "responsibilities": [
-        "Merancang antarmuka pengguna (UI/UX) dan prototipe interaktif menggunakan Figma sebelum tahap pengembangan",
-        "Membangun website company profile, landing page, dan aplikasi web interaktif menggunakan React.js, Next.js, dan Tailwind CSS",
-        "Melakukan optimasi responsivitas tampilan pada berbagai ukuran perangkat serta menjaga performa pemuatan halaman",
-        "Mengelola kode sumber dan kolaborasi rilis proyek menggunakan Git dan GitHub"
+        "Berkontribusi dalam pengembangan konsep SDK Sentinel-ID sebagai solusi teknologi berbasis AI dan sensor bersama Tim Dizipher",
+        "Berpartisipasi dalam pengembangan ide dan konsep produk digital untuk menjawab kebutuhan teknologi",
+        "Mengikuti pelatihan Web Development dan Artificial Intelligence",
+        "Mempelajari penerapan teknologi dan pengembangan solusi digital dalam program hackathon"
       ],
       "achievements": [
-        "Menyelesaikan puluhan proyek website dan aset desain digital dengan tingkat kepuasan klien yang tinggi",
-        "Memangkas waktu pembuatan antarmuka hingga 40% melalui penerapan komponen reusable berbasis Tailwind CSS dan React"
+        "Terpilih sebagai peserta program Digdaya X Hackathon Bank Indonesia bersama Tim Dizipher",
+        "Top 480 tim terbaik dari 2.000+ tim dan termasuk dalam fase Practioner Training."
       ],
       "technologies": [
-        "React JS",
-        "Next JS",
-        "Tailwind CSS",
-        "Javascript",
-        "Node JS",
-        "Figma",
-        "Github"
+        "Web Development",
+        "Artificial Intelligence"
       ],
-      "logo": "/assets/experiences/exp-001.svg",
-      "featured": true
+      "logo": "/assets/experiences/exp-001.jpeg",
+      "featured": false
     },
     {
       "id": "exp-002",
-      "slug": "frontend-web-developer-kreatif-media",
-      "organization": "Nusantara Kreatif Digital",
-      "position": "Frontend Web Developer",
-      "type": "Work Experience",
-      "location": "Jakarta, Indonesia",
+      "slug": "bsi-kc-diponegoro",
+      "organization": "BSI KC Diponegoro Bandar Lampung",
+      "position": "Mobile Developer",
+      "type": "Internship",
+      "location": "Bandar Lampung, Indonesia",
       "employmentType": "Full-time",
-      "startDate": "2023-03",
-      "endDate": "2024-05",
+      "startDate": "2025-07",
+      "endDate": "2025-08",
       "current": false,
-      "shortDescription": "Mengimplementasikan antarmuka website sekolah, portal kursus online, dan profil perusahaan.",
-      "description": "Bertanggung jawab dalam menerjemahkan desain visual menjadi kode frontend yang bersih, interaktif, dan responsif untuk berbagai kebutuhan klien di sektor pendidikan dan korporat.",
+      "shortDescription": "Mengembangkan aplikasi Android JaminanTrack untuk membantu divisi marketing memantau dan mengelola data serta status jaminan nasabah.",
+      "description": "Melaksanakan kerja praktik di Bank Syariah Indonesia KC Diponegoro Bandar Lampung dengan berkontribusi dalam pengembangan aplikasi mobile JaminanTrack. Aplikasi ini dirancang untuk membantu divisi marketing dalam mengelola informasi jaminan nasabah, memantau status jaminan, dan memperoleh pengingat terkait jadwal jatuh tempo. Selain pengembangan aplikasi, turut membantu kegiatan operasional dan administrasi perbankan.",
       "responsibilities": [
-        "Mengonversi desain Figma menjadi halaman web interaktif menggunakan React.js, Bootstrap, dan Tailwind CSS",
-        "Mengintegrasikan pustaka pendukung seperti AOS, Swiper, dan Lightbox Gallery untuk meningkatkan pengalaman pengguna",
-        "Berkoordinasi dengan tim desainer dan pengembang backend dalam penyelarasan struktur data dan komponen UI"
+        "Mengembangkan aplikasi Android JaminanTrack untuk mendukung pemantauan dan pengelolaan status jaminan nasabah",
+        "Mengimplementasikan fitur pencatatan data jaminan dan informasi nasabah serta pengingat terkait jadwal jatuh tempo jaminan",
+        "Membantu kegiatan operasional dan administrasi bank dalam pelaksanaan pekerjaan harian"
       ],
       "achievements": [
-        "Mengembangkan template standar portal sekolah dan company profile yang mempercepat pengerjaan proyek tim",
-        "Meningkatkan skor aksesibilitas dan responsivitas tampilan mobile pada seluruh produk web yang dirilis"
+        "Menghasilkan aplikasi mobile JaminanTrack sebagai solusi pendukung pemantauan data jaminan nasabah"
       ],
       "technologies": [
-        "React JS",
-        "Bootstrap",
-        "Tailwind CSS",
-        "Javascript",
-        "Visual Studio Code",
-        "Github"
+        "Kotlin",
+        "Android Studio",
+        "Figma"
       ],
-      "logo": "/assets/experiences/exp-002.svg",
+      "logo": "/assets/experiences/exp-002.png",
       "featured": true
     },
     {
       "id": "exp-003",
-      "slug": "graphic-dan-visual-designer-komunitas-it",
-      "organization": "Komunitas Kreatif & Teknologi",
-      "position": "Lead Visual & UI Designer",
-      "type": "Organization",
+      "slug": "pt-amanah-karya-indonesia-mobile-developer",
+      "organization": "PT Amanah Karya Indonesia",
+      "position": "Mobile Developer",
+      "type": "Internship",
       "location": "Indonesia",
-      "employmentType": "Hybrid",
-      "startDate": "2022-01",
-      "endDate": "2023-02",
+      "employmentType": "Remote",
+      "startDate": "2024-11",
+      "endDate": "2024-12",
       "current": false,
-      "shortDescription": "Menangani pembuatan aset visual, poster, pamflet, banner acara, serta desain materi publikasi komunitas.",
-      "description": "Memimpin divisi desain visual dan media kreatif dalam merancang identitas acara, poster, pamflet, banner promosi, serta desain antarmuka landing page kegiatan komunitas teknologi.",
+      "shortDescription": "Mengimplementasikan desain UI aplikasi PPOB BisaTopUp menggunakan Kotlin dan Jetpack Compose untuk meningkatkan tampilan dan pengalaman pengguna.",
+      "description": "Berkontribusi dalam pengembangan dan pembaruan antarmuka aplikasi mobile PPOB BisaTopUp. Fokus pada implementasi desain UI ke dalam aplikasi Android menggunakan Kotlin dan Jetpack Compose dengan memperhatikan konsistensi desain, responsivitas, serta pengalaman pengguna.",
       "responsibilities": [
-        "Merancang materi publikasi visual seperti poster, pamflet, dan banner menggunakan Adobe Illustrator dan Canva",
-        "Menyusun panduan identitas visual acara agar konsisten di seluruh kanal media sosial dan website",
-        "Bekerja sama dengan tim web untuk menyiapkan aset grafis dan tata letak halaman informasi kegiatan"
+        "Mengimplementasikan desain UI yang telah disediakan ke dalam aplikasi menggunakan Jetpack Compose",
+        "Mengembangkan dan memperbarui antarmuka aplikasi PPOB BisaTopUp menggunakan Kotlin",
+        "Membangun komponen UI yang konsisten dengan desain yang telah ditentukan"
       ],
       "achievements": [
-        "Merancang lebih dari 30 paket publikasi visual acara dan materi edukasi komunitas",
-        "Membangun standar template desain komunitas di Figma dan Canva untuk mempercepat kolaborasi anggota"
+        "Berhasil mengimplementasikan 100% desain UI yang telah disediakan ke dalam Jetpack Compose"
       ],
       "technologies": [
-        "Adobe Illustrator",
-        "Canva",
-        "Figma"
+        "Kotlin",
+        "Jetpack Compose",
+        "Android Studio"
       ],
-      "logo": "/assets/experiences/exp-003.svg",
+      "logo": "/assets/experiences/exp-003.jpeg",
       "featured": true
+    },
+    {
+      "id": "exp-004",
+      "slug": "bangkit-academy",
+      "organization": "Studi Independen: Bangkit Academy by Google, GoTo, and Traveloka",
+      "position": "Mobile Developer",
+      "type": "Apprenticeship",
+      "location": "Indonesia",
+      "employmentType": "Remote",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "current": false,
+      "shortDescription": "Terpilih sebagai peserta Mobile Development Cohort dengan pembelajaran intensif mengenai pengembangan aplikasi Android dan kolaborasi proyek berbasis tim.",
+      "description": "Mengikuti program Bangkit Academy pada jalur Mobile Development yang diselenggarakan oleh Google, GoTo, dan Traveloka. Program ini mencakup pembelajaran mandiri, penyelesaian tugas dan penilaian, serta sesi pembelajaran bersama mentor. Kegiatan pembelajaran berfokus pada pengembangan aplikasi Android, implementasi antarmuka, dan praktik pengembangan perangkat lunak. Selain itu, berkolaborasi dalam proyek akhir berbasis tim untuk menerapkan pengetahuan yang telah dipelajari.",
+      "responsibilities": [
+        "Menyelesaikan sekitar 8 jam pembelajaran setiap hari melalui modul pembelajaran mandiri, tugas, penilaian, dan sesi yang dipandu oleh mentor melalui Zoom.",
+        "Mempelajari pengembangan aplikasi Android dan implementasi antarmuka mobile",
+        "Berkolaborasi dalam pengembangan proyek aplikasi mobile berbasis tim"
+
+      ],
+      "achievements": [
+        "Terpilih sebagai peserta Bangkit Academy 2024 pada jalur Mobile Development",
+        "Menyelesaikan rangkaian pembelajaran intensif dan proyek kolaboratif"
+      ],
+      "technologies": [
+        "Kotlin",
+        "Android Studio",
+        "Mobile Development"
+      ],
+      "logo": "/assets/experiences/exp-004.jpg",
+      "featured": true
+    },
+    {
+      "id": "exp-005",
+      "slug": "lampung-folk",
+      "organization": "Lampung Folk Media",
+      "position": "Graphic Designer",
+      "type": "Internship",
+      "location": "BandarLampung, Indonesia",
+      "employmentType": "Part Time",
+      "startDate": "2025-11",
+      "endDate": "2026-02",
+      "current": false,
+      "shortDescription": "Menghasilkan lebih dari 100 konten media sosial dan 15 infografis mengenai data serta statistik Lampung.",
+      "description": "Berperan sebagai Graphic Designer dalam program internship Lampung Folk dengan tanggung jawab mengembangkan berbagai materi visual untuk kebutuhan publikasi media sosial. Berfokus pada pembuatan konten Instagram, infografis, serta materi komunikasi visual yang informatif dan menarik.",
+      "responsibilities": [
+        "Mendesain dan mengedit konten feed Instagram Lampung Folk",
+        "Merancang infografis mengenai data dan statistik Lampung",
+        "Merancang berbagai materi visual untuk kebutuhan publikasi media sosial",
+        "Menyesuaikan desain dengan identitas visual dan kebutuhan konten"
+      ],
+      "achievements": [
+        "Menghasilkan lebih dari 100 konten visual untuk Instagram Lampung Folk",
+        "Merancang lebih dari 15 infografis edukatif mengenai data dan statistik Lampung"
+      ],
+      "technologies": [
+        "Canva",
+        "Graphic Design"
+      ],
+      "logo": "/assets/experiences/exp-005.png",
+      "featured": false
+    },
+    {
+      "id": "exp-006",
+      "slug": "humas-official-unila",
+      "organization": "Humas Official Universitas Lampung",
+      "position": "Illustrator",
+      "type": "Internship",
+      "location": "Bandar Lampung, Indonesia",
+      "employmentType": "Part Time",
+      "startDate": "2025-01",
+      "endDate": "2025-12",
+      "current": false,
+      "shortDescription": "Merancang ilustrasi dan aset visual untuk publikasi media sosial resmi Universitas Lampung.",
+      "description": "Berperan sebagai Illustrator dalam tim Humas Official Universitas Lampung dengan tanggung jawab membuat ilustrasi untuk memperingati berbagai hari besar nasional dan internasional. Turut mengembangkan aset visual seperti maskot dan ilustrasi pendukung serta berkolaborasi dengan tim konten dalam menyusun konsep visual yang sesuai dengan copywriting.",
+      "responsibilities": [
+        "Menggambar ilustrasi untuk memperingati hari besar nasional dan internasional",
+        "Merancang maskot dan berbagai aset visual pendukung konten Instagram Universitas Lampung",
+        "Berkolaborasi dengan tim konten dalam mengembangkan konsep ilustrasi dan copywriting"
+      ],
+      "achievements": [
+        "Menghasilkan lebih dari 30 ilustrasi yang dipublikasikan melalui akun Instagram resmi Universitas Lampung",
+        "Berkontribusi dalam pengembangan aset visual dan maskot untuk kebutuhan komunikasi digital universitas"
+      ],
+      "technologies": [
+        "IbisPaint",
+        "Graphic Illustration"
+      ],
+      "logo": "/assets/experiences/exp-006.png",
+      "featured": false
+    },
+    {
+      "id": "exp-007",
+      "slug": "internship-gajahlah-kebersihan",
+      "organization": "Gajahlah Kebersihan",
+      "position": "Media Creative",
+      "type": "Internship",
+      "location": "Indonesia",
+      "employmentType": "Remote",
+      "startDate": "2025-06",
+      "endDate": "2025-09",
+      "current": false,
+      "shortDescription": "Mengembangkan konten media sosial tentang lingkungandan mendokumentasikan kegiatan volunteer dalam kampanye kesadaran lingkungan.",
+      "description": "Berperan sebagai Media Creative dalam program internship Gajahlah Kebersihan dengan fokus pada pengembangan konten visual dan dokumentasi kegiatan volunteer. Bertanggung jawab dalam mengolah materi dokumentasi menjadi konten informatif untuk mendukung kampanye kesadaran lingkungan melalui media sosial.",
+      "responsibilities": [
+        "Mendesain dan mengedit konten feed Instagram Gajahlah Kebersihan",
+        "Mendokumentasikan kegiatan volunteer gajahlah kebersihan dalam menjaga lingkungan",
+        "Mendukung publikasi kampanye kesadaran lingkungan melalui media sosial"
+      ],
+      "achievements": [
+        "Menghasilkan lebih dari 45 slide konten visual untuk media sosial",
+        "Mendokumentasikan lebih dari 3 kegiatan volunteer sebagai materi publikasi kampanye lingkungan"
+      ],
+      "technologies": [
+        "Canva",
+        "Graphic Design"
+      ],
+      "logo": "/assets/experiences/exp-007.jpg",
+      "featured": false
+    },
+        {
+      "id": "exp-008",
+      "slug": "fossi-ft-unila",
+      "organization": "FOSSI FT Universitas Lampung",
+      "position": "Sekretaris Departemen Media Informasi",
+      "type": "Organization",
+      "location": "Bandar Lampung, Indonesia",
+      "employmentType": "Full-time",
+      "startDate": "2024-02",
+      "endDate": "2024-12",
+      "current": false,
+      "shortDescription": "Mengelola konten media sosial serta mengoordinasikan perencanaan dan publikasi konten digital organisasi.",
+      "description": "Menjabat sebagai Sekretaris Departemen Media Informasi FOSSI FT Universitas Lampung dengan tanggung jawab dalam pengelolaan administrasi departemen, perencanaan konten, serta koordinasi tim media informasi. Turut membimbing anggota departemen dalam mengembangkan publikasi digital melalui berbagai platform media sosial.",
+      "responsibilities": [
+        "Menyusun content planning dan timeline publikasi konten media sosial",
+        "Membimbing staf Departemen Media Informasi dalam perencanaan dan pengelolaan konten",
+        "Mengelola administrasi dan dokumentasi kegiatan departemen"
+      ],
+      "achievements": [
+        "Mengembangkan lebih dari 100 konten media sosial selama satu periode kepengurusan",
+        "Membimbing dan mengoordinasikan lebih dari 10 staf departemen",
+        "menyusun 10 Rencana Anggaran Biaya (RAB) kegiatan serta mengarsipkan 5 Laporan Pertanggungjawaban (LPJ) kegiatan"
+      ],
+      "technologies": [
+        "Social Media Management",
+        "Content Planning",
+        "Team Coordination"
+      ],
+      "logo": "/assets/experiences/exp-008.jpeg",
+      "featured": false
+    },
+    {
+      "id": "exp-009",
+      "slug": "himatro-unila",
+      "organization": "Himpunan Mahasiswa Teknik Elektro Universitas Lampung (HIMATRO)",
+      "position": "Anggota Divisi Hubungan Masyarakat",
+      "type": "Organization",
+      "location": "Bandar Lampung, Indonesia",
+      "employmentType": "Full-time",
+      "startDate": "2023-02",
+      "endDate": "2024-08",
+      "current": false,
+      "shortDescription": "Membangun hubungan dan kerja sama dengan organisasi mahasiswa serta perusahaan ",
+      "description": "Aktif sebagai anggota Divisi Humas HIMATRO Universitas Lampung selama satu periode kepengurusan.",
+      "responsibilities": [
+        "Membangun hubungan dengan ormawa dan industri perusahaan",
+        "Berpartisipasi dalam program Forum Silaturahmi Mahasiswa bersama HME ITB, DPM Unila, Himateks Unila, dan BEM Unila",
+        "Berpartisipasi dalam kegiatan kunjungan industri ke PT PLN, PT Bukit Asam, dan Zitline"
+      ],
+      "achievements": [
+    "Memperluas jaringan relasi organisasi melalui kegiatan forum silaturahmi mahasiswa",
+    "Memperoleh wawasan mengenai dunia industri melalui kegiatan kunjungan perusahaan"
+      ],
+      "technologies": [
+        "Figma",
+        "Social Media Management",
+        "Communication",
+        "Public Relations"
+      ],
+      "logo": "/assets/experiences/exp-009.jpeg",
+      "featured": false
+    },
+    {
+      "id": "exp-010",
+      "slug": "bem-ft-unila",
+      "organization": "Badan Eksekutif Mahasiswa Fakultas Teknik Universitas Lampung",
+      "position": "Anggota Dinas Komunikasi Informasi",
+      "type": "Organization",
+      "location": "Bandar Lampung, Indonesia",
+      "employmentType": "Full-time",
+      "startDate": "2023-04",
+      "endDate": "2023-12",
+      "current": false,
+      "shortDescription": "Berkontribusi dalam pengembangan konten publikasi digital dan pengelolaan media sosial BEM Fakultas Teknik Universitas Lampung.",
+      "description": "Menjadi anggota Dinas Komunikasi Informasi BEM Fakultas Teknik Universitas Lampung dengan tanggung jawab mendukung publikasi informasi dan dokumentasi kegiatan organisasi melalui media sosial. ",
+      "responsibilities": [
+        "Mendesain feed post untuk akun Instagram BEM Fakultas Teknik dalam satu bulan",
+        "Mendukung penyampaian informasi kegiatan dan program kerja melalui media sosial"
+      ],
+      "achievements": [
+        "Menghasilkan lebih dari 13 konten feed Instagram dalam satu bulan selama periode kepengurusan"
+      ],
+      "technologies": [
+        "Canva",
+        "Graphic Design",
+        "Social Media Management"
+      ],
+      "logo": "/assets/experiences/exp-010.svg",
+      "featured": false
     }
   ]
 }
