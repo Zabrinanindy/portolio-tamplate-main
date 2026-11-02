@@ -1,214 +1,173 @@
 {
   "projects": [
-    {
+    { 
       "id": "project-001",
-      "slug": "website-sekolah",
-      "title": "Website Sekolah",
-      "shortDescription": "Portal informasi akademik dan profil institusi pendidikan yang responsif dan interaktif.",
-      "description": "Website Sekolah merupakan platform informasi digital yang dirancang untuk memudahkan siswa, guru, orang tua, dan masyarakat umum dalam mengakses informasi akademik, pengumuman, kegiatan ekstrakurikuler, serta pendaftaran siswa baru secara terpusat.",
+      "slug": "ecounila-smart-energy-monitoring",
+      "title": "EcoUnila: Smart Energy Monitoring App",
+      "shortDescription": "Aplikasi Android berbasis IoT untuk memantau konsumsi energi listrik dan kualitas lingkungan dalam ruangan secara real-time.",
+      "description": "EcoUnila merupakan aplikasi mobile Android yang dikembangkan untuk mendukung pemantauan konsumsi energi listrik dan Indoor Environmental Quality (IEQ) di lingkungan RSPTN Universitas Lampung. Aplikasi ini menyediakan informasi monitoring secara real-time melalui integrasi API dan WebSocket, sehingga pengguna dapat memantau kondisi kelistrikan dan lingkungan dalam satu platform.",
       "thumbnail": "/assets/proyek/proyek1.webp",
-      "category": "Web Development",
+      "category": "Mobile Development",
+      "featured": true,
+      "status": "Completed",
+      "year": 2026,
+      "role": "Frontend Mobile Developer",
+      "technologies": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Firebase"
+      ],
+      "problem": "Pemantauan konsumsi energi listrik dan kualitas lingkungan di RSPTN Universitas Lampung membutuhkan sistem yang dapat menyajikan data monitoring secara terpusat dan mudah diakses. Pemantauan manual juga menyulitkan pengguna dalam memperoleh informasi kondisi secara berkala.",
+      "solution": "Mengembangkan aplikasi Android menggunakan Kotlin dan Jetpack Compose yang terintegrasi dengan sistem IoT melalui REST API dan WebSocket. Aplikasi dilengkapi dashboard monitoring, visualisasi data, notifikasi, serta fitur laporan untuk membantu pengguna memantau kondisi energi dan lingkungan.",
+      "features": [
+        "Dashboard monitoring real time untuk konsumsi energi listrik dan kualitas lingkungan",
+        "Visualisasi nilai IEQ Score dan IKE Score",
+        "Notifikasi peringatan apabila parameter nilai listrik atau lingkungan melebihi ambang batas",
+        "Notifikasi otomatis dan fitur pengiriman laporan langsung ke Teknisi"
+      ],
+      "contributions": [
+        "Mengintegrasikan REST API menggunakan Retrofit untuk proses autentikasi dan pengambilan data monitoring",
+        "Mengintegrasikan Firebase Cloud Messaging untuk push notification",
+         "Mengimplementasikan WebSocket untuk menerima pembaruan data monitoring secara real-time"
+      ],
+      "gallery": [],
+      "repositoryUrl": "https://github.com/AndikaPrataa/smart_monitoring/tree/app",
+      "liveUrl": ""
+    },
+    { 
+      "id": "project-002",
+      "slug": "jaminantrack",
+      "title": "JaminanTrack: Collateral Monitoring",
+      "shortDescription": "Aplikasi Android untuk pengelolaan dan pemantauan data jaminan dengan pengingat otomatis serta notifikasi.",
+      "description": "JaminanTrack merupakan aplikasi mobile yang dirancang untuk membantu proses pemantauan data jaminan nasabah pada Bank Syariah Indonesia. Aplikasi ini menyediakan pengelolaan data jaminan, pengingat otomatis, serta notifikasi untuk membantu pengguna memantau informasi dan jadwal terkait jaminan secara lebih terstruktur.",
+      "thumbnail": "/assets/proyek/proyek2.webp",
+      "category": "Mobile Development",
       "featured": true,
       "status": "Completed",
       "year": 2025,
+      "role": "Frontend Mobile Developer",
+      "technologies": [
+        "Kotlin",
+        "Android Studio"
+      ],
+      "problem": "Pemantauan data dan jadwal terkait jaminan membutuhkan pengelolaan informasi yang terstruktur agar pengguna dapat mengetahui data jaminan dan memperoleh pengingat tepat waktu.",
+      "solution": "Mengembangkan aplikasi untuk mengelola informasi jaminan, menyediakan fitur pencarian dan penyaringan data, serta mengimplementasikan pengingat otomatis.",
+      "features": [
+        "Notifikasi pengingat menggunakan AlarmManager",
+        "Pengingat otomatis berdasarkan jadwal",
+        "Filter dan pencarian data jaminan",
+        "Ekspor laporan ke format PDF"
+      ],
+      "contributions": [
+        "Mengimplementasikan fitur pengelolaan dan penyaringan data jaminan",
+        "Mengembangkan pengingat otomatis menggunakan AlarmManager",
+        "Mengimplementasikan BroadcastReceiver untuk menangani notifikasi"
+      ],
+      "gallery": [],
+      "repositoryUrl": "https://github.com/Zabrinanindy/JaminanTrack",
+      "liveUrl": " "
+    },
+    {
+      "id": "project-003",
+      "slug": "bisatopup-mobile-app",
+      "title": "Bisatopup: PPOB Mobile App",
+      "shortDescription": "Pengembangan antarmuka aplikasi PPOB menggunakan Jetpack Compose untuk menghadirkan pengalaman transaksi digital yang lebih modern dan intuitif",
+      "description": "Bisatopup merupakan aplikasi Payment Point Online Banking (PPOB) yang menyediakan layanan transaksi digital. Proyek ini berfokus pada pembaruan antarmuka aplikasi Android menggunakan Jetpack Compose serta pengembangan integrasi API untuk mendukung proses autentikasi dan kebutuhan aplikasi.",
+      "thumbnail": "/assets/proyek/proyek3.webp",
+      "category": "Mobile Development",
+      "featured": true,
+      "status": "Completed",
+      "year": 2024,
+      "role": "Mobile Developer",
+      "technologies": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Figma"
+      ],
+      "problem": "Antarmuka aplikasi sebelumnya masih menggunakan pendekatan konvensional sehingga perlu diperbarui agar lebih modern, intuitif, responsif, dan sesuai dengan standar desain aplikasi mobile saat ini.",
+      "solution": "Melakukan pembaruan UI aplikasi Android menggunakan Jetpack Compose dengan pendekatan declarative UI serta mengembangkan integrasi REST API untuk mendukung proses autentikasi dan pengelolaan data aplikasi.",
+      "features": [
+        "Pembaruan antarmuka aplikasi menggunakan Jetpack Compose",
+        "Desain UI modern dan responsif",
+        "Implementasi proses autentikasi melalui REST API",
+        "Pengembangan komponen UI yang reusable"
+      ],
+      "contributions": [
+        "Merancang ulang tampilan aplikasi menggunakan Jetpack Compose",
+        "Mengimplementasikan komponen UI menggunakan Material 3",
+        "Mengintegrasikan API untuk proses autentikasi"
+      ],
+      "gallery": [],
+      "repositoryUrl": " ",
+      "liveUrl": "https://drive.google.com/file/d/175TdOHv80kDtIko4PXB1w96_Z5Dz45Jr/view?pli=1"
+    },
+    {
+      "id": "project-004",
+      "slug": "rootfacts-ai-vegetable-scanner",
+      "title": "RootFacts: AI Vegetable Scanner",
+      "shortDescription": "Aplikasi web berbasis AI untuk mengenali sayuran melalui kamera dan menghasilkan fakta unik menggunakan Computer Vision dan Generative AI.",
+      "description": "RootFacts merupakan aplikasi web interaktif yang dirancang untuk memberikan pengalaman belajar yang menyenangkan mengenai berbagai jenis sayuran. Aplikasi ini menggabungkan teknologi Computer Vision untuk mengenali sayuran melalui kamera dan Generative AI untuk menghasilkan fakta unik secara otomatis. Dengan pendekatan Progressive Web App (PWA), RootFacts dirancang agar dapat diakses secara fleksibel dan mendukung penggunaan offline.",
+      "thumbnail": "/assets/proyek/proyek4.webp",
+      "category": "Web Development",
+      "featured": false,
+      "status": "Completed",
+      "year": 2026,
+      "role": "Frontend Web Developer",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "TensorFlow.js"
+      ],
+      "problem": "Informasi mengenai sayuran umumnya disajikan secara konvensional sehingga kurang interaktif dan menarik, terutama bagi pengguna yang ingin mempelajari berbagai jenis sayuran.",
+      "solution": "Mengembangkan aplikasi web interaktif yang mengintegrasikan Computer Vision dan Generative AI. Fitur pengenalan sayuran menggunakan kamera diimplementasikan melalui TensorFlow.js, sedangkan Transformers.js digunakan untuk menghasilkan fakta unik dan informatif berdasarkan hasil identifikasi sayuran.",
+      "features": [
+        "Pengenalan jenis sayuran melalui kamera secara real-time",
+        "Identifikasi sayuran menggunakan teknologi Computer Vision",
+        "Generasi fakta unik dan informatif menggunakan Generative AI"
+      ],
+      "contributions": [
+        "Mengembangkan antarmuka aplikasi web menggunakan JavaScript",
+        "Mengintegrasikan model Computer Vision menggunakan TensorFlow.js untuk pengenalan sayuran",
+        "Mengintegrasikan Transformers.js untuk menghasilkan fakta unik berbasis AI"
+      ],
+      "gallery": [],
+      "repositoryUrl": "https://github.com/Zabrinanindy/FactsVegetablesScanApp",
+      "liveUrl": "https://sparkly-jelly-d82ae8.netlify.app/"
+    },
+    {
+      "id": "project-005",
+      "slug": "es-krim-website",
+      "title": "Es Krim Enak: Ice Cream Website",
+      "shortDescription": "Website profil bisnis es krim yang responsif dengan katalog produk, informasi sertifikasi halal, dan formulir pemesanan.",
+      "description": "Es Krim Enak merupakan website profil bisnis yang dirancang untuk memperkenalkan produk dan informasi usaha es krim kepada calon pelanggan. Website ini menyediakan informasi mengenai profil bisnis, katalog produk, sertifikasi halal, serta formulir pemesanan dalam satu platform digital. Pengembangan berfokus pada tampilan yang menarik, navigasi yang mudah dipahami, dan desain responsif.",
+      "thumbnail": "/assets/proyek/proyek5.webp",
+      "category": "Web Development",
+      "featured": false,
+      "status": "Completed",
+      "year": 2024,
       "role": "Frontend Web Developer",
       "technologies": [
         "HTML",
         "CSS",
-        "Javascript",
-        "AOS"
-      ],
-      "problem": "Penyampaian informasi akademik dan profil sekolah sebelumnya masih dilakukan secara manual dan tersebar di berbagai media, sehingga menyulitkan calon siswa dan wali murid.",
-      "solution": "Membangun portal website sekolah terpusat yang responsif dengan navigasi terstruktur, halaman profil fasilitas, berita kegiatan, dan animasi scroll yang halus menggunakan AOS.",
-      "features": [
-        "Halaman beranda informatif dengan highlight profil dan statistik sekolah",
-        "Direktori jurusan, fasilitas sekolah, dan kegiatan ekstrakurikuler",
-        "Papan pengumuman dan berita kegiatan terbaru",
-        "Desain responsif untuk perangkat mobile maupun desktop"
-      ],
-      "contributions": [
-        "Merancang struktur halaman dan antarmuka pengguna yang ramah pengunjung",
-        "Mengimplementasikan layout responsif menggunakan HTML5, CSS3, dan JavaScript",
-        "Mengintegrasikan animasi interaktif menggunakan pustaka Animate On Scroll (AOS)"
-      ],
-      "gallery": [],
-      "repositoryUrl": "https://github.com/zabrinatalitha/website-sekolah",
-      "liveUrl": "https://example.com/website-sekolah"
-    },
-    {
-      "id": "project-002",
-      "slug": "company-profile",
-      "title": "Company Profile",
-      "shortDescription": "Website profil perusahaan modern dengan galeri interaktif dan katalog layanan bisnis.",
-      "description": "Website Company Profile yang dikembangkan untuk memperkuat identitas digital perusahaan, menampilkan portofolio proyek, daftar layanan utama, testimoni klien, serta galeri dokumentasi interaktif.",
-      "thumbnail": "/assets/proyek/proyek2.webp",
-      "category": "Web Development",
-      "featured": true,
-      "status": "Completed",
-      "year": 2025,
-      "role": "Frontend Developer & UI Designer",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "AOS",
-        "Swiper",
-        "Lightbox Gallery"
-      ],
-      "problem": "Perusahaan membutuhkan media representasi profesional secara daring untuk menampilkan kredibilitas bisnis dan portofolio layanan kepada calon mitra.",
-      "solution": "Mengembangkan website company profile dengan slider interaktif berbasis Swiper dan tampilan dokumentasi proyek menggunakan Lightbox Gallery.",
-      "features": [
-        "Carousel layanan dan testimoni klien menggunakan Swiper.js",
-        "Galeri dokumentasi proyek dengan pratinjau Lightbox Gallery",
-        "Bagian profil visi, misi, dan struktur keunggulan perusahaan",
-        "Integrasi CTA kontak cepat untuk konsultasi bisnis"
-      ],
-      "contributions": [
-        "Menyusun arsitektur informasi dan hierarki visual halaman korporat",
-        "Mengimplementasikan komponen slider Swiper dan Lightbox Gallery",
-        "Mengoptimalkan performa pemuatan gambar dan kompatibilitas lintas browser"
-      ],
-      "gallery": [],
-      "repositoryUrl": "https://github.com/zabrinatalitha/company-profile",
-      "liveUrl": "https://example.com/company-profile"
-    },
-    {
-      "id": "project-003",
-      "slug": "web-pernikahan-2-0",
-      "title": "Web Pernikahan 2.0",
-      "shortDescription": "Undangan pernikahan digital interaktif berbasis React dan Tailwind CSS.",
-      "description": "Web Pernikahan 2.0 adalah aplikasi undangan pernikahan digital modern yang menyajikan informasi acara, hitung mundur waktu pelaksanaan, galeri foto mempelai, peta lokasi, serta fitur konfirmasi kehadiran (RSVP) dan ucapan.",
-      "thumbnail": "/assets/proyek/proyek3.webp",
-      "category": "Web Application",
-      "featured": true,
-      "status": "Completed",
-      "year": 2026,
-      "role": "Full Stack Web Developer",
-      "technologies": [
-        "Vite",
-        "ReactJS",
-        "TailwindCSS",
-        "AOS"
-      ],
-      "problem": "Undangan cetak konvensional memiliki keterbatasan distribusi dan tidak menyediakan fitur konfirmasi kehadiran tamu secara real-time.",
-      "solution": "Membangun aplikasi web undangan digital berbasis ReactJS dan TailwindCSS yang ringan, mudah dibagikan melalui tautan personal, serta dilengkapi fitur RSVP.",
-      "features": [
-        "Personalisasi nama tamu undangan melalui parameter URL",
-        "Countdown timer otomatis menuju hari pelaksanaan acara",
-        "Integrasi penunjuk lokasi acara dan galeri foto mempelai",
-        "Formulir RSVP dan kolom ucapan doa secara interaktif"
-      ],
-      "contributions": [
-        "Membangun komponen modular menggunakan ReactJS dan Vite",
-        "Mendesain tampilan elegan dan mobile-first dengan TailwindCSS",
-        "Menambahkan transisi halaman dan animasi menggunakan AOS"
-      ],
-      "gallery": [],
-      "repositoryUrl": "https://github.com/zabrinatalitha/web-pernikahan-2",
-      "liveUrl": "https://example.com/web-pernikahan-2"
-    },
-    {
-      "id": "project-004",
-      "slug": "website-course",
-      "title": "Website Course",
-      "shortDescription": "Platform katalog kursus online dan pembelajaran digital berbasis ReactJS dan Bootstrap.",
-      "description": "Website Course adalah platform edukasi daring yang menyediakan katalog kelas pembelajaran, informasi silabus, daftar mentor, serta ulasan peserta untuk membantu pengguna memilih kelas yang sesuai dengan kebutuhan pengembangan karier.",
-      "thumbnail": "/assets/proyek/proyek4.webp",
-      "category": "Web Application",
-      "featured": false,
-      "status": "Completed",
-      "year": 2025,
-      "role": "Frontend Developer",
-      "technologies": [
-        "Vite",
-        "ReactJS",
-        "Bootstrap",
-        "AOS"
-      ],
-      "problem": "Peserta kursus membutuhkan antarmuka yang jelas untuk membandingkan materi, harga, dan kurikulum dari berbagai program kelas yang tersedia.",
-      "solution": "Menyediakan antarmuka katalog kursus terstruktur dengan pencarian kategori, rincian modul kelas, dan halaman FAQ yang mudah diakses.",
-      "features": [
-        "Katalog kelas populer beserta rincian harga dan rating",
-        "Filter dan pengelompokan materi pembelajaran",
-        "Halaman testimoni alumni dan pertanyaan umum (FAQ)",
-        "Layout responsif berbasis sistem grid Bootstrap"
-      ],
-      "contributions": [
-        "Mengembangkan komponen kartu kursus dan halaman katalog dengan ReactJS",
-        "Menyesuaikan tema komponen Bootstrap agar selaras dengan identitas brand",
-        "Menjaga konsistensi responsivitas pada berbagai ukuran layar"
-      ],
-      "gallery": [],
-      "repositoryUrl": "https://github.com/zabrinatalitha/website-course",
-      "liveUrl": ""
-    },
-    {
-      "id": "project-005",
-      "slug": "web-portfolio",
-      "title": "Web Portfolio",
-      "shortDescription": "Website portofolio personal untuk menampilkan karya desain dan pengembangan web.",
-      "description": "Web Portfolio merupakan proyek website personal yang dirancang untuk merangkum profil profesional, keahlian teknis, serta daftar karya proyek web dan desain visual dalam satu halaman yang ringkas.",
-      "thumbnail": "/assets/proyek/proyek5.webp",
-      "category": "UI/UX & Web Design",
-      "featured": false,
-      "status": "Completed",
-      "year": 2024,
-      "role": "Web Developer & Designer",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "Javascript",
         "Bootstrap"
       ],
-      "problem": "Diperlukan media portofolio daring yang rapi dan mudah diakses oleh perekrut maupun klien untuk meninjau hasil karya terdahulu.",
-      "solution": "Merancang dan mengimplementasikan website portofolio yang fokus pada keterbacaan informasi, showcase proyek, dan kemudahan kontak.",
+      "problem": "Informasi mengenai profil usaha, variasi produk, dan pemesanan es krim membutuhkan media digital yang terstruktur agar calon pelanggan dapat memperoleh informasi dengan mudah.",
+      "solution": "Membangun website profil bisnis menggunakan HTML, CSS, dan Bootstrap dengan tampilan responsif. Website dilengkapi katalog produk, informasi sertifikasi halal, serta formulir pemesanan untuk memudahkan calon pelanggan mengenal dan melakukan pemesanan produk.",
       "features": [
-        "Ringkasan profil dan daftar keahlian utama",
-        "Showcase proyek dengan tautan pratinjau",
-        "Formulir kontak langsung dan tautan media sosial",
-        "Tampilan bersih dan cepat dimuat"
+        "Halaman beranda untuk memperkenalkan bisnis es krim",
+        "Informasi profil dan identitas bisnis",
+        "Katalog produk dengan informasi dan tampilan produk",
+        "Informasi sertifikasi halal produk"
       ],
       "contributions": [
-        "Merancang wireframe dan desain UI di Figma sebelum tahap coding",
-        "Mengimplementasikan kode frontend menggunakan HTML, CSS, JavaScript, dan Bootstrap"
+        "Mengembangkan antarmuka website menggunakan HTML5 dan CSS3",
+        "Mengimplementasikan komponen responsif menggunakan Bootstrap",
+        "Membangun tampilan katalog produk dan informasi bisnis"
       ],
       "gallery": [],
-      "repositoryUrl": "https://github.com/zabrinatalitha/web-portfolio",
-      "liveUrl": ""
-    },
-    {
-      "id": "project-006",
-      "slug": "company-profile-2-0",
-      "title": "Company Profile 2.0",
-      "shortDescription": "Pembaruan website korporat berbasis Next.js, Tailwind CSS, dan animasi Framer Motion.",
-      "description": "Company Profile 2.0 adalah generasi terbaru dari website profil perusahaan yang dibangun menggunakan Next.js untuk performa SEO yang optimal, dipadukan dengan Tailwind CSS dan transisi mikro interaktif menggunakan Framer Motion.",
-      "thumbnail": "/assets/proyek/proyek6.webp",
-      "category": "Web Development",
-      "featured": false,
-      "status": "Completed",
-      "year": 2026,
-      "role": "Full Stack Web Developer",
-      "technologies": [
-        "NextJS",
-        "TailwindCSS",
-        "Framermotion"
-      ],
-      "problem": "Versi website korporat sebelumnya membutuhkan peningkatan kecepatan pemuatan halaman, optimasi SEO, serta tampilan visual yang lebih modern.",
-      "solution": "Melakukan modernisasi arsitektur frontend menggunakan Next.js dan Tailwind CSS disertai animasi transisi yang halus berbasis Framer Motion.",
-      "features": [
-        "Arsitektur halaman cepat dan ramah mesin pencari (SEO) dengan Next.js",
-        "Animasi antarmuka modern menggunakan Framer Motion",
-        "Halaman showcase studi kasus dan layanan korporat",
-        "Desain dark/light section yang kontras dan terstruktur"
-      ],
-      "contributions": [
-        "Membangun arsitektur halaman menggunakan Next.js",
-        "Mengembangkan sistem komponen UI reusable dengan Tailwind CSS",
-        "Merancang transisi interaktif menggunakan Framer Motion"
-      ],
-      "gallery": [],
-      "repositoryUrl": "https://github.com/zabrinatalitha/company-profile-2",
-      "liveUrl": "https://example.com/company-profile-2"
+      "repositoryUrl": "https://github.com/Zabrinanindy/web-ice-cream",
+      "liveUrl": "https://eskrim-enak.netlify.app/"
     }
   ]
 }
