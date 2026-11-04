@@ -10,13 +10,8 @@
           "role": "Framework"
         },
         {
-          "name": "Next JS",
-          "icon": "/assets/tools/nextjs.png",
-          "role": "Framework"
-        },
-        {
-          "name": "Tailwind CSS",
-          "icon": "/assets/tools/tailwind.png",
+          "name": "Jetpack Compose",
+          "icon": "/assets/tools/jetpack-compose.png",
           "role": "Framework"
         },
         {
@@ -27,9 +22,39 @@
       ]
     },
     {
-      "id": "language-runtime",
-      "name": "Language & Runtime",
+      "id": "language-program",
+      "name": "Programming Languages",
       "items": [
+        {
+          "name": "Kotlin",
+          "icon": "/assets/tools/kotlin.png",
+          "role": "Language"
+        },
+        {
+          "name": "Python",
+          "icon": "/assets/tools/python.png",
+          "role": "Language"
+        },
+        {
+          "name": "C++",
+          "icon": "/assets/tools/cpp.png",
+          "role": "Language"
+        },
+        {
+          "name": "HTML",
+          "icon": "/assets/tools/html5.png",
+          "role": "Markup Language"
+        },
+        {
+          "name": "CSS",
+          "icon": "/assets/tools/css3.png",
+          "role": "Style Sheet Language"
+        },
+        {
+          "name": "MySQL",
+          "icon": "/assets/tools/sql.png",
+          "role": "Database Language"
+        },
         {
           "name": "Javascript",
           "icon": "/assets/tools/js.png",
@@ -52,6 +77,21 @@
           "role": "Code Editor"
         },
         {
+          "name": "Android Studio",
+          "icon": "/assets/tools/android-studio.png",
+          "role": "App Code Editor"
+        },
+        {
+          "name": "Postman",
+          "icon": "/assets/tools/postman.png",
+          "role": "API Testing Tool"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/assets/tools/firebase.png",
+          "role": "Backend Platform"
+        },
+        {
           "name": "Github",
           "icon": "/assets/tools/github.png",
           "role": "Repository"
@@ -68,6 +108,11 @@
           "role": "Design App"
         },
         {
+          "name": "Adobe Photoshop",
+          "icon": "/assets/tools/ps.png",
+          "role": "Design App"
+        },
+        {
           "name": "Canva",
           "icon": "/assets/tools/canva.png",
           "role": "Design App"
@@ -75,6 +120,11 @@
         {
           "name": "Figma",
           "icon": "/assets/tools/figma.png",
+          "role": "Design App"
+        },
+        {
+          "name": "Ibis Paint X",
+          "icon": "/assets/tools/ibis-paint.png",
           "role": "Design App"
         }
       ]

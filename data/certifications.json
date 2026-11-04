@@ -15,7 +15,7 @@
         "Digital Product Development",
         "Start up Business"
       ],
-      "featured": false
+      "featured": true
     },
     {
       "id": "cert-002",
@@ -38,36 +38,231 @@
     },
     {
       "id": "cert-003",
-      "slug": "fullstack-javascript-dan-nodejs",
-      "name": "Full Stack JavaScript & Node.js Backend",
-      "issuer": "Codepolitan",
-      "issueDate": "2025-04-10",
-      "credentialId": "CP-FSJS-2025-1190",
-      "credentialUrl": "https://codepolitan.com",
+      "slug": "belajar-penerapan-ai",
+      "name": "Belajar Penerapan AI di Aplikasi Web",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2026-07-26",
+      "credentialId": "72ZDM9EJJZYW",
+      "credentialUrl": "https://www.dicoding.com/certificates/72ZDM9EJJZYW",
       "image": "/assets/certifications/cert-003.svg",
-      "description": "Sertifikasi penguasaan pemrograman JavaScript modern (ES6+) dan pengembangan sisi server menggunakan Node.js, pengelolaan repositori Git/GitHub, serta integrasi RESTful API pada aplikasi web.",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Penerapan AI di Aplikasi Web dari Dicoding Academy. Mempelajari integrasi model AI menggunakan Web API, penerapan AI pada browser, Computer Vision untuk pengenalan objek, serta Generative AI untuk pemrosesan bahasa alami, termasuk implementasi model AI secara langsung di sisi klien (client-side).",
       "skills": [
-        "Javascript",
-        "Node JS",
-        "Github",
-        "Visual Studio Code"
+        "Artificial Intelligence",
+        "Computer Vision",
+        "Generative AI"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-004",
+      "slug": "belajar-generative-ai",
+      "name": "Belajar Fundamental Generative AI",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2026-07-25",
+      "credentialId": "2VX3V4D4QPYQ",
+      "credentialUrl": "https://www.dicoding.com/certificates/2VX3V4D4QPYQ",
+      "image": "/assets/certifications/cert-004.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Fundamental Generative AI dari Dicoding Academy. Mempelajari konsep dasar Generative AI, penerapan model generatif, dan teknik pengembangan aplikasi berbasis AI.",
+      "skills": [
+        "Generative AI",
+        "Machine Learning"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-005",
+      "slug": "belajar-backend-pemula",
+      "name": "Belajar Back-End Pemula dengan Python",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2026-06-13",
+      "credentialId": "98XW01Y2WXM3",
+      "credentialUrl": "https://www.dicoding.com/certificates/98XW01Y2WXM3",
+      "image": "/assets/certifications/cert-005.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Belajar Back-End Pemula dengan Python dari Dicoding Academy. Mempelajari dasar pengembangan back-end, pembuatan web service dan RESTful API, deployment ke Google Cloud Platform, pengujian API menggunakan Postman, serta penerapan operasi CRUD (Create, Read, Update, Delete) melalui proyek pengembangan API.",
+      "skills": [
+        "Python",
+        "REST API",
+        "Django"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-006",
+      "slug": "belajar-dasar-ux-design",
+      "name": "Belajar Dasar UX Design",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2026-06-05",
+      "credentialId": "72ZDJ6J8VZYW",
+      "credentialUrl": "https://www.dicoding.com/certificates/72ZDJ6J8VZYW",
+      "image": "/assets/certifications/cert-006.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Dasar UX Design dari Dicoding Academy. Mempelajari dasar User Experience (UX) Design dengan pendekatan Design Thinking, analisis kebutuhan pengguna melalui Empathy Map, User Persona, dan User Journey Map, perumusan masalah, pembuatan ide solusi, User Flow, Storyboard, Wireframe, hingga pengembangan Mockup dan High-Fidelity Prototype yang interaktif.",
+      "skills": [
+        "Figma",
+        "UX Design",
+        "Design Thinking"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-007",
+      "slug": "belajar-android-intermediate",
+      "name": "Belajar Pengembangan Aplikasi Android Intermediate",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2024-12-23",
+      "credentialId": "GRX54VQLVP0M",
+      "credentialUrl": "https://www.dicoding.com/certificates/GRX54VQLVP0M",
+      "image": "/assets/certifications/cert-007.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Pengembangan Aplikasi Android Intermediate dari Dicoding Academy. Mempelajari pengembangan aplikasi Android tingkat lanjut, meliputi Custom View, animasi, Localization, Accessibility, Background Service, pengelolaan media, Geo Location, Advanced Testing, Database, serta integrasi Firebase. Materi diterapkan melalui proyek akhir berupa aplikasi Android berbagi foto dengan implementasi Paging.",
+      "skills": [
+        "Android Development",
+        "Kotlin",
+        "Firebase"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-008",
+      "slug": "belajar-ml-android",
+      "name": "Belajar Penerapan Machine Learning untuk Android",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2024-11-24",
+      "credentialId": "N9ZOYN7O6PG5",
+      "credentialUrl": "https://www.dicoding.com/certificates/N9ZOYN7O6PG5",
+      "image": "/assets/certifications/cert-008.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Penerapan Machine Learning untuk Android dari Dicoding Academy. Mempelajari integrasi Machine Learning pada aplikasi Android menggunakan ML Kit, TensorFlow Lite, MediaPipe, dan Firebase ML, meliputi Text Recognition, Barcode Scanning, Image Classification, Object Detection, serta implementasi model AI melalui kamera, galeri, dan Web API.",
+      "skills": [
+        "Kotlin",
+        "TensorFlow Lite",
+        "Machine Learning"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-009",
+      "slug": "belajar-fundamental-android",
+      "name": "Belajar Fundamental Aplikasi Android",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2024-10-31",
+      "credentialId": "GRX543WNKP0M",
+      "credentialUrl": "https://www.dicoding.com/certificates/GRX543WNKP0M",
+      "image": "/assets/certifications/cert-009.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Fundamental Aplikasi Android dari Dicoding Academy. Mempelajari dasar hingga fundamental pengembangan aplikasi Android, meliputi RecyclerView, integrasi REST API, Background Thread, ViewModel, LiveData, penyimpanan data lokal menggunakan Room dan DataStore, Background Task, serta pengujian aplikasi melalui Unit Testing.",
+      "skills": [
+        "Kotlin",
+        "REST API",
+        "Android Development"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-010",
+      "slug": "belajar-pemula-android",
+      "name": "Belajar Membuat Aplikasi Android untuk Pemula",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2024-10-06",
+      "credentialId": "2VX34Y8DJZYQ",
+      "credentialUrl": "https://www.dicoding.com/certificates/2VX34Y8DJZYQ",
+      "image": "/assets/certifications/cert-010.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Membuat Aplikasi Android untuk Pemula dari Dicoding Academy. Mempelajari dasar pengembangan aplikasi Android menggunakan Android Studio, meliputi Activity, Intent, View dan ViewGroup",
+      "skills": [
+        "Kotlin",
+        "Android Development"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-011",
+      "slug": "belajar-dasar-ai",
+      "name": "Belajar Dasar AI",
+      "issuer": "Dicoding Indonesia",
+      "issueDate": "2024-09-29",
+      "credentialId": "07Z645YDJPQR",
+      "credentialUrl": "https://www.dicoding.com/certificates/07Z645YDJPQR",
+      "image": "/assets/certifications/cert-011.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Belajar Dasar AI dari Dicoding Academy. Mempelajari konsep dasar Artificial Intelligence (AI), pemanfaatan data dalam pengembangan AI, dasar-dasar Machine Learning, serta konsep dan penerapan Deep Learning melalui latihan dan studi kasus.",
+      "skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-012",
+      "slug": "ui-ux-workshop",
+      "name": "UI/UX Design Workshop",
+      "issuer": "Infinite Learning",
+      "issueDate": "2024-05-24",
+      "credentialId": "0050/IL-BTM/UIUXBootcamp/B-1/2024 > UI UX",
+      "credentialUrl": "https://drive.google.com/file/d/1ZHdnknHJ_am4xQqmcVRDhGuHwIdbWgt0/view?usp=drive_link",
+      "image": "/assets/certifications/cert-012.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program UI/UX Design Workshop dari Infinite Learning. Mempelajari dasar perancangan antarmuka dan pengalaman pengguna (UI/UX Design), meliputi analisis kebutuhan pengguna, penyusunan konsep desain, pembuatan Wireframe dan Prototype, serta perancangan tampilan aplikasi",
+      "skills": [
+        "UI/UX Design",
+        "Figma"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-013",
+      "slug": "networks-cisco",
+      "name": "CCNAv7: Introduction to Networks ",
+      "issuer": "Cisco Networking Academy",
+      "issueDate": "2024-06-16",
+      "credentialId": " ",
+      "credentialUrl": "https://drive.google.com/file/d/1f_j5dq7JMgxrJHtuZwtO0tW6xHUde-Bk/view?usp=drive_link",
+      "image": "/assets/certifications/cert-013.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program CCNAv7: Introduction to Networks dari Cisco Networking Academy. Mempelajari konsep dasar jaringan komputer, arsitektur jaringan, protokol komunikasi, dan teknik troubleshooting.",
+      "skills": [
+        "Networking",
+        "Computer Networks"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-014",
+      "slug": "database-sql",
+      "name": "Database Programming with SQL",
+      "issuer": "Oracle Academy",
+      "issueDate": "2023-12-11",
+      "credentialId": " ",
+      "credentialUrl": "https://drive.google.com/file/d/1-Z_vYiD0z08K9FppHf3hfRoikbepDGgg/view?usp=drive_link",
+      "image": "/assets/certifications/cert-014.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Database Programming with SQL dari Oracle Academy. Mempelajari konsep dasar database, perintah SQL, dan teknik pengembangan aplikasi berbasis database.",
+      "skills": [
+        "MySQL",
+        "Database Management"
+      ],
+      "featured": false
+    },
+    {
+      "id": "cert-015",
+      "slug": "excel-intermediate",
+      "name": "Microsoft Excel Intermediate",
+      "issuer": "MySkill",
+      "issueDate": "2026-10-31",
+      "credentialId": "MS-20261031-ZuyyajVyHK5xU2JoCrvH",
+      "credentialUrl": "https://drive.google.com/file/d/12shwQUlOjDYV5ea_30Z9wxT8vtw5uzHe/view?usp=drive_link",
+      "image": "/assets/certifications/cert-015.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan program Microsoft Excel Intermediate dari MySkill. Mempelajari konsep dasar Excel, fungsi dan rumus, serta teknik pengembangan aplikasi berbasis Excel.",
+      "skills": [
+        "Microsoft Excel"
       ],
       "featured": true
     },
     {
-      "id": "cert-004",
-      "slug": "responsive-frontend-css-frameworks",
-      "name": "Responsive Frontend Styling with Tailwind & Bootstrap",
-      "issuer": "Progate",
-      "issueDate": "2024-08-05",
-      "credentialId": "PG-CSS-2024-7731",
-      "credentialUrl": "",
-      "image": "/assets/certifications/cert-004.svg",
-      "description": "Sertifikasi penyusunan tata letak web responsif lintas perangkat menggunakan pendekatan utility-first Tailwind CSS dan sistem komponen Bootstrap.",
+      "id": "cert-016",
+      "slug": "toefl-score",
+      "name": "TOEFL Prediction Test",
+      "issuer": "Neo Spectra English",
+      "issueDate": "2026-10-07",
+      "credentialId": "13.75053/LKP/NSE/X/2026",
+      "credentialUrl": "https://app.toeps.id/certificate/number-13-25053-lkp-nse-X-2026",
+      "image": "/assets/certifications/cert-016.svg",
+      "description": "Sertifikat ini diberikan karena telah menyelesaikan ujian TOEFL Prediction Test dari Neo Spectra English.",
       "skills": [
-        "Tailwind CSS",
-        "Bootstrap",
-        "Javascript"
+        "TOEFL",
+        "English"
       ],
       "featured": false
     }
